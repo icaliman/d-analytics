@@ -21,4 +21,4 @@ app.use(require('d-analytics'));
 <analytics id="UA-XXXX-Y"/>
 ```
 
-<b>Note</b>: You must replace the value UA-XXXX-Y with the web property ID listed in the management interface within Google Analytics.
+<b>Note</b>: You must replace the value <b>UA-XXXX-Y</b> with the web property ID listed in the management interface within Google Analytics.
