@@ -1,7 +1,7 @@
 d-analytics
 ========
 
-Google Analytics component for Derby.js.
+Google Analytics component for Derby.
 
 Records page views in Google Analytics for pages where component is added.
 
