@@ -1,21 +1,21 @@
-d-analytics
-========
+# d-analytics
+
 
 Google Analytics component for Derby.
 
 Records page views in Google Analytics for pages where component is added.
 
-# Usage
+## Usage
 
 First of make sure to install d-share through npm `npm install d-analytics`
 
-## Including
+### Including
 
 ```js
 app.use(require('d-analytics'));
 ```
 
-## In template
+### In template
 
 ```html
 <analytics id="UA-XXXX-Y"/>
