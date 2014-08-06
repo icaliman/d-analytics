@@ -1,6 +1,6 @@
 {
   "name": "d-analytics",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Google Analytics component for Derby",
   "homepage": "http://icaliman.github.io/d-analytics/",
   "main": "lib/index.js",
