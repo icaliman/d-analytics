@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>d-analytics by icaliman</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>d-analytics</h1>
+        <p>Google Analytics component for Derby.js.</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/icaliman/d-analytics" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/icaliman/d-analytics/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/icaliman/d-analytics/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a name="d-analytics" class="anchor" href="#d-analytics"><span class="octicon octicon-link"></span></a>d-analytics</h1>
+
+<p>Google Analytics component for Derby.js.</p>
+
+<p>Records a pageview in Google Analytics for the page where component is added.</p>
+
+<h1>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h1>
+
+<p>First of make sure to install d-share through npm <code>npm install d-analytics</code></p>
+
+<h2>
+<a name="including" class="anchor" href="#including"><span class="octicon octicon-link"></span></a>Including</h2>
+
+<div class="highlight highlight-js"><pre><span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">require</span><span class="p">(</span><span class="s1">'d-analytics'</span><span class="p">));</span>
+</pre></div>
+
+<h2>
+<a name="in-template" class="anchor" href="#in-template"><span class="octicon octicon-link"></span></a>In template</h2>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;analytics</span> <span class="na">id=</span><span class="s">"UA-XXXX-Y"</span><span class="nt">/&gt;</span>
+</pre></div>
+
+<p><b>Note</b>: You must replace the value UA-XXXX-Y with the web property ID listed in the management interface within Google Analytics.</p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/icaliman">icaliman</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-45109286-4");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
