@@ -1,0 +1,32 @@
+{
+  "name": "d-analytics",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "https://github.com/icaliman/d-analytics",
+  "main": "lib/index.js",
+  "author": "John Caliman",
+  "license": "MIT",
+  "keywords": [
+    "google",
+    "analytics",
+    "derby-component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icaliman/d-analytics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/icaliman/d-analytics/issues"
+  },
+  "scripts": {
+    "test": "grunt",
+    "prepublish": "grunt"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-mocha-test": "~0.9.0",
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0"
+  }
+}
