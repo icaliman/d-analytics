@@ -4,4 +4,4 @@ module.exports = class Analytics
   name: 'd-analytics'
 
   init: (model) ->
-    model.setNull 'development', !app.derby.util.isProduction
+    model.setNull 'development', not @app.derby.util.isProduction
